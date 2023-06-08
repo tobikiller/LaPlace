@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: NeueLeiden;
+  src: url(../public/font/NeueLeiden-Regular.woff) format('truetype');
+}
+
+
+.typo_normal {
+  @apply text-[16.48px] text-BabyPowder-0 leading-[20.48px] tracking-[-0.12px] ;
+}
+
+.heading{
+  @apply text-[28.43px] md:text-[58.73px] md:leading-[63.74px] font-bold text-CreamyWhite-0 leading-[32.69px] tracking-[-0.85px]
+}
